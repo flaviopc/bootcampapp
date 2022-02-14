@@ -1,7 +1,9 @@
 package br.com.dio.desafio.dominio;
 
-public class Curso {
+import java.time.LocalDate;
+
+public class Mentoria {
     private String titulo;
     private String descricao;
-    private int cargaHoraria;
+    private LocalDate data;
 }
